@@ -9,10 +9,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
-      },
+          name: `blog`,
+          path: `${__dirname}/blog`
+        }
+    },    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          name: `data`,
+          path: `${__dirname}/static`
+        }
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-pdf",
   ],
 }

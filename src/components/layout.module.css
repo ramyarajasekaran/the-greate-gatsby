@@ -28,3 +28,8 @@
     font-weight: 700;
     margin: 3 rem 0;
 }
+
+.reader {
+    border: '1px solid rgba(0, 0, 0, 0.3)';
+    border-style: solid;
+}
